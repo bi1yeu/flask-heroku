@@ -2,12 +2,6 @@
 
 via https://geekyhumans.com/how-to-deploy-flask-api-on-heroku/#Deploying-a-Flask-App-on-Heroku
 
-## Run
-
-```sh
-flask run
-```
-
 ## Create app
 
 Create virtualenv and install Python requirements
@@ -23,6 +17,12 @@ Create app in Heroku
 ```sh
 heroku login
 heroku create <app-name>
+```
+
+## Run locally
+
+```sh
+flask run
 ```
 
 ## Deploy
