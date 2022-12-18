@@ -22,7 +22,7 @@ heroku create <app-name>
 ## Run locally
 
 ```sh
-flask run
+flask run --reload --port 8080
 ```
 
 ## Deploy
